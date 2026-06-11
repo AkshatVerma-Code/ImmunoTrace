@@ -78,3 +78,4 @@ Set `GEMINI_API_KEY` in `.env` before using diet-plan generation.
 - Browser notifications:
   - appointment reminders about 1 hour before
   - medicine reminders about 5 minutes before
+

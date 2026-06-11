@@ -11,10 +11,11 @@ build/
 out/
 .vite/
 
-# Environment variables
+# Environment variables (SECURITY: Never commit secrets)
 .env
 .env.local
 .env.*.local
+.env.production.local
 
 # IDE & Editor
 .vscode/
@@ -34,3 +35,15 @@ coverage/
 # Logs
 logs/
 *.log
+
+# Railway
+.railway/
+railway.json.local
+
+# Build cache
+.eslintcache
+.turbo/
+
+# Misc
+.cache/
+*.pem
