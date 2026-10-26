@@ -1,0 +1,12 @@
+.env
+*.db
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+frontend/dist/
+storage/
+.agents
+.aws
+.codex
+.pytest_cache
